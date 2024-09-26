@@ -9,7 +9,7 @@ body {
     padding-left: 20px;
 }
 .container {
-    max-width: 800px;
+    max-width: 1500px;
     margin: 0 auto;
     padding: 20px;
     background-color: #fff;
@@ -79,9 +79,10 @@ a:hover {
 mark{
     background-color: #C0E4F6;
 }
-footer{
+footer {
     background-color: #ddd;
     padding: 10px;
+    text-align: center; /* Centers the content */
 }
 .info-container {
     display: flex;
@@ -124,4 +125,18 @@ video.profile-video {
     max-width: 300px;
     border-radius: 10px;
 }
+.contact-icons {
+    display: flex;
+    align-items: center; /* Vertically center all items */
+    justify-content: center; /* Center the items horizontally */
+    gap: 20px; /* Space between the icons */
+}
 
+.telephone {
+    display: flex;
+    align-items: center; /* Ensure the icon and text are vertically aligned */
+}
+
+.telephone img {
+    margin-right: 10px; /* Space between the telephone icon and the number */
+}
