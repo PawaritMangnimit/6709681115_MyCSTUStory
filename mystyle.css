@@ -42,7 +42,9 @@ p {
 section {
     margin: 20px 0;
 }
-
+h3{
+    font-size: 1.6em;
+}
 h2 {
     font-size: 1.6em;
     color: #333;
@@ -221,4 +223,19 @@ footer .telephone span {
     max-width: 600px;
     font-size: 1.2em;
     color: #333;
+}
+.years-section {
+    margin-top: 20px;
+}
+
+.year-container h3,
+.year-container p {
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.year-container p {
+    font-size: 1.6em;
+    color: #555;
+    margin-left: 20px;
 }
