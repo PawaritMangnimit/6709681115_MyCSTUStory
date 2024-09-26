@@ -174,3 +174,26 @@ footer a {
 footer .telephone span {
     font-size: 1.2em;
 }
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.navbar a {
+    font-size: 1.2em;
+    text-decoration: none;
+}
+
+.navbar a:first-child {
+    margin-right: auto; 
+}
+
+.navbar a:nth-child(2) {
+    margin: 0 auto; 
+}
+
+.navbar a:last-child {
+    margin-left: auto; 
+}
