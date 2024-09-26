@@ -185,6 +185,10 @@ footer .telephone span {
     font-size: 1.2em;
     text-decoration: none;
 }
+.navbar a.active {
+    color: #FF5733;
+
+}
 
 .navbar a:first-child {
     margin-right: auto; 
